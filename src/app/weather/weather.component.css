@@ -54,7 +54,7 @@
   }
   
   .temperature {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
     color: #333;
   }
@@ -75,6 +75,12 @@
     color: #777;
     margin-top: 10px;
   }
+
+  .visibility, .cloudiness {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
   
   @media (max-width: 768px) {
     input[type="text"] {
@@ -87,4 +93,6 @@
       margin-top: 10px;
     }
   }
+
+
   
