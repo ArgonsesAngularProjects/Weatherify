@@ -1,27 +1,47 @@
 # Weatherify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Weatherify is a simple Angular project that allows you to check the weather for a specific city. It utilizes the OpenWeather API to fetch weather data based on the city name you provide.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **City Weather:** Enter the name of a city, and Weatherify will display the current weather conditions for that location.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To get started with Weatherify, follow these steps:
 
-## Build
+1. Clone the repository:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`git clone https://github.com/ArgonsesAngularProjects/Weatherify.git`
 
-## Running unit tests
+2. Navigate to the project directory:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`cd Weatherify`
 
-## Running end-to-end tests
+3. Install dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`npm install`
 
-## Further help
+4. Obtain an API key from [OpenWeather](https://openweathermap.org/api) and replace `apiKey` in the `src/app/weather.service.ts` file with your API key.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Build and run the project:
+
+<b> ng serve</b>
+
+6. Open your web browser and visit `http://localhost:4200/` to use Weatherify.
+
+## Usage
+
+1. Enter the name of the city for which you want to check the weather in the input field.
+
+2. Click the "Get Weather" button.
+
+3. Weatherify will fetch and display the current weather conditions for the specified city.
+
+## Credits
+
+Weatherify uses the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
